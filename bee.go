@@ -176,6 +176,7 @@ func scan_ports_udp(ports_list []string, wg *sync.WaitGroup) {
 		}
 	}
 }
+
 func presentation(){
 	fmt.Println("\n" +
 	"	██████╗ ███████╗███████╗\n" +
@@ -185,7 +186,7 @@ func presentation(){
 	"	██████╔╝███████╗███████╗\n" +
 	"	╚═════╝ ╚══════╝╚══════╝\n" +
 	"-----------------------------------------\n" +
-	"----------- Created by Kraken -----------\n" +
+	"------ Created by Angel Pimentel --------\n" +
 	"-----------------------------------------\n")
 }
 
